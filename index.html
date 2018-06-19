@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <title>Giftastic DISNEY</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+</head>
+
+<body>
+    
+
+    <div class="container">
+
+        <div class="row">
+            <div class= "col-lg-12">
+                <H1>Get Giphy with Disney!</H1>
+            </div>    
+        </div>
+        <!--where buttons are listed and dumped  -->
+        <div class="row">
+            <div class= "col-lg-8">
+                <div id= "itemList"></div>
+            </div>
+
+            <div class="col-lg-4">
+                <!-- this is where the search button will exist -->
+                <form id="gifs-form">
+                    <label for="gifs-input">Search for movies here:</label>
+                    <p><input type="text" id="gifs-input"></p>
+                    <input id="add-gif" type="submit" value="Submit" class="btn btn-info">
+                </form>
+            </div>
+
+        </div>
+        
+        <div class="row">
+            <div class= "col-lg-12">
+                <!-- gifs dumped here -->
+                <div class="card-columns">
+                <div id="gifs-view" ></div>
+            </div>
+            </div>
+            
+        </div>
+        
+
+        </div>
+        </div>
+        
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+    
+</body>
+</html>

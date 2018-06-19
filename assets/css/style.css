@@ -1,0 +1,46 @@
+body{
+ background:lightcyan;
+ font-family: 'Shrikhand', cursive;
+}
+.btn-info{
+    margin:8px;
+    border-radius: 5px;
+}
+
+.btn-info:hover{
+    background-color:blue;
+}
+#gifs-input{
+    border-radius: 5px;
+    width:80%;
+}
+.card-columns{
+    /* inorder to change the number of columns this works. I ended up preferring the 3 columns */
+    /* column-count:2; */
+    display: inline-block;
+    border:0px;  
+}
+
+.col-lg-4{
+    padding:50px;
+}
+h1{
+    text-align: center;
+    background:lightblue;
+    padding:50px;
+    border-radius: 5px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height:150px;
+    
+}
+.card{
+    border: 5px black;
+    border-radius: 5px;
+    width:80%;
+}
