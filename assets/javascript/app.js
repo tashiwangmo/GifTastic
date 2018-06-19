@@ -37,7 +37,7 @@ var topics =["Frozen", "Pinocchio", "Kim Possible", "The Lion King","Toy Story",
     renderButtons();
   
 $(document).on('click', '.gifs-btn', function() {
-//$(".gifs-btn").delegate("click",function() {
+
     var topic1 = $(this).attr("data-name");
     console.log(topic1);
     var giphyURL = "https://api.giphy.com/v1/gifs/search?api_key=N7Xczx6vHkDSSDlyQ0RM9F7hSbu47lVh&q=" + topic1 + "&limit=10&rating=g";
